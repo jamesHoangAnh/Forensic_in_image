@@ -1,0 +1,16 @@
+{
+  "input": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351.jpg",
+  "width": 3840,
+  "height": 2160,
+  "block_size": 8,
+  "stride": 4,
+  "minimum_separation_pixels": 16,
+  "minimum_texture_standard_deviation": 2.0,
+  "blocks_examined": 516901,
+  "low_texture_blocks_skipped": 516576,
+  "duplicate_blocks_marked": 0,
+  "duplicate_block_pairs": 0,
+  "mask": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351_copy_move_mask.png",
+  "report": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351_copy_move.json",
+  "interpretation": "Exact grayscale block matches are candidate regions only. Repeated textures can produce false positives; transformed or resampled copies may be missed. This is not a forensic verdict."
+}

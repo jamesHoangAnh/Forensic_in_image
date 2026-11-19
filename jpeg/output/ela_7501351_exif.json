@@ -1,0 +1,10 @@
+{
+  "input": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351.jpg",
+  "format": "JPEG",
+  "width": 3840,
+  "height": 2160,
+  "exif_present": false,
+  "selected_exif_fields": {},
+  "interpretation": "Metadata is editable and may be absent or stripped. Its presence does not establish image authenticity. GPS fields are intentionally omitted from this report.",
+  "report": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351_exif.json"
+}

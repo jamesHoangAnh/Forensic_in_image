@@ -1,0 +1,15 @@
+{
+  "input": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351.jpg",
+  "format": "JPEG",
+  "width": 3840,
+  "height": 2160,
+  "recompression_quality": 90,
+  "display_scale": 10.0,
+  "mean_absolute_channel_difference": 0.0016516364454732511,
+  "maximum_channel_difference": 37,
+  "mean_scaled_ela_intensity": 0.016496270576131688,
+  "recompressed_image": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351_recompressed_q90.jpg",
+  "ela_image": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351_ela_q90.png",
+  "report": "F:\\Project\\LapTrinhKichBan\\Forensic_in_image\\jpeg\\output\\ela_7501351_ela_q90.json",
+  "interpretation": "Heuristic visualization only. Bright regions are not proof of editing; results depend on image history, JPEG quality, and processing."
+}

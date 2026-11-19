@@ -1,0 +1,111 @@
+{
+  "input": "input\\forged2.png",
+  "format": "PNG",
+  "width": 256,
+  "height": 256,
+  "original_mode": "RGB",
+  "file_size_bytes": 104387,
+  "chunks": [
+    {
+      "type": "IHDR",
+      "length": 13,
+      "crc_valid": true
+    },
+    {
+      "type": "tIME",
+      "length": 7,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 8192,
+      "crc_valid": true
+    },
+    {
+      "type": "IDAT",
+      "length": 5863,
+      "crc_valid": true
+    },
+    {
+      "type": "IEND",
+      "length": 0,
+      "crc_valid": true
+    }
+  ],
+  "trailing_bytes_after_iend": 0,
+  "structural_issues": [],
+  "lsb_statistics": {
+    "red": {
+      "ones_ratio": 0.50042724609375,
+      "horizontal_transition_ratio": 0.5005055147058823,
+      "vertical_transition_ratio": 0.49895833333333334
+    },
+    "green": {
+      "ones_ratio": 0.500701904296875,
+      "horizontal_transition_ratio": 0.5025582107843137,
+      "vertical_transition_ratio": 0.4984987745098039
+    },
+    "blue": {
+      "ones_ratio": 0.498382568359375,
+      "horizontal_transition_ratio": 0.5029718137254902,
+      "vertical_transition_ratio": 0.49892769607843135
+    }
+  },
+  "lsb_visualization": "output\\png_lsb_forged2.png",
+  "interpretation": "Low-bit statistics are screening indicators, not proof of hidden data. This program does not extract or execute embedded content."
+}
