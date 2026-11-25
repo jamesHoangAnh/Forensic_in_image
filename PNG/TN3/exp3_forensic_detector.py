@@ -93,7 +93,17 @@ class ForensicLSBDetector:
         if chi_res['suspicious']: score += 20
         
         print(f"\n--- KẾT QUẢ PHÂN TÍCH FORENSIC ---")
-        print(f"TỔNG ĐIỂM NGUY CƠ: {score}/100")
+        #In các kết quả chi tiết
+        print(f"1. Phát hiện dấu hiệu PE: {'Có' if pe_res['suspicious'] else 'Không'}")
+        print(f"2. Phát hiện Sequential Drop: {'Có' if drop_res['suspicious'] else 'Không'}, Max Drop: {drop_res['max_val']:.4f}, Capacity: {drop_res['capacity']:.2f}%")
+        print(f"3. Phát hiện Local Balance: {'Có' if bal_res['suspicious'] else 'Không'}, Ultra Rate: {bal_res['ultra_rate']:.2f}%, Mean Dev: {bal_res['mean_dev']:.4f}")
+        print(f"4. Phát hiện Adaptive Chi-Square: {'Có' if chi_res['suspicious'] else 'Không'}, Norm Chi2: {chi_res['norm_chi2']:.6f}")
+
+        #in ra các điểm số và kết luận
+        print(f"\n--- ĐIỂM SỐ VÀ KẾT LUẬN ---")
+        print(f"Điểm số: PE: {100 if pe_res['suspicious'] else 0}, Sequential Drop: {40 if drop_res['suspicious'] else 0}, Local Balance: {20 if bal_res['suspicious'] else 0}, Adaptive Chi-Square: {20 if chi_res['suspicious'] else 0}")
+       
+        print(f"\nTỔNG ĐIỂM NGUY CƠ: {score}/100")
         
         if score >= 100: verdict = "NGUY HIỂM: PHÁT HIỆN MÃ ĐỘC THỰC THI (.EXE) ẨN TRONG ẢNH"
         elif score >= 60: verdict = "CẢNH BÁO: PHÁT HIỆN DỮ LIỆU ẨN CÓ CẤU TRÚC BẤT THƯỜNG"
