@@ -81,5 +81,5 @@ class MalwareExtractor:
         extraction_thread.join()
 
 if __name__ == "__main__":
-    img_path = input("Nhập đường dẫn ảnh stego chứa mã độc: ").strip()
+    img_path = 'land_with_payload.png' 
     MalwareExtractor(img_path).run()
