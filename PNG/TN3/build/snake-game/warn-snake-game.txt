@@ -33,6 +33,7 @@ missing module named multiprocessing.set_start_method - imported by multiprocess
 missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
 missing module named pyimod02_importers - imported by C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py (delayed)
 missing module named _suggestions - imported by traceback (delayed, optional)
+missing module named pygame - imported by F:\Project\LapTrinhKichBan\Forensic_in_image\PNG\TN3\exp3_extractor.py (top-level)
 missing module named fcntl - imported by subprocess (optional)
 missing module named _dummy_thread - imported by numpy._core.arrayprint (optional)
 missing module named 'numpy_distutils.cpuinfo' - imported by numpy.f2py.diagnose (delayed, conditional, optional)
