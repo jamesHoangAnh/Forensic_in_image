@@ -48,4 +48,3 @@ if __name__ == "__main__":
     exe_in = input("Đường dẫn file payload.exe: ").strip()
     img_out = input("Đường dẫn ảnh xuất ra (stego.png): ").strip()
     LSBHider().hide_exe(img_in, exe_in, img_out)
-    P
